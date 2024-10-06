@@ -651,16 +651,16 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_CORNN_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_hipup_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Cornn"),
+        .name = _("Hipup"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_PURPLE,
         .size = 75,
-        .maxYield = YIELD_RATE(4, 10, 15, 15),
-        .minYield = YIELD_RATE(2, 2, 3, 3),
-        .description1 = COMPOUND_STRING("A Berry from an ancient era. May not"),
-        .description2 = COMPOUND_STRING("grow unless planted in quantity."),
+        .maxYield = YIELD_RATE(20, 20, 15, 15),
+        .minYield = YIELD_RATE(10, 10, 3, 3),
+        .description1 = COMPOUND_STRING("a nutritious wild berry, said to"),
+        .description2 = COMPOUND_STRING("raise a pokemon's health."),
         .growthDuration = GROWTH_DURATION(24, 24, 36, 24, 16, 24),
         .spicy = 0,
         .dry = 20,
@@ -674,16 +674,16 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_MAGOST_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_pipup_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Magost"),
+        .name = _("Pipup"),
         .firmness = BERRY_FIRMNESS_HARD,
         .color = BERRY_COLOR_PINK,
         .size = 140,
-        .maxYield = YIELD_RATE(4, 10, 15, 15),
-        .minYield = YIELD_RATE(2, 2, 3, 3),
-        .description1 = COMPOUND_STRING("A Berry that is widely said to have"),
-        .description2 = COMPOUND_STRING("a finely balanced flavor."),
+        .maxYield = YIELD_RATE(20, 20, 15, 15),
+        .minYield = YIELD_RATE(10, 10, 3, 3),
+        .description1 = COMPOUND_STRING("A nutritious wild berry, said to"),
+        .description2 = COMPOUND_STRING("raise a Pokemon's endurence."),
         .growthDuration = GROWTH_DURATION(24, 24, 36, 24, 16, 24),
         .spicy = 0,
         .dry = 0,
@@ -697,16 +697,16 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_RABUTA_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_protie_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Rabuta"),
+        .name = _("Protie"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_GREEN,
         .size = 226,
-        .maxYield = YIELD_RATE(4, 10, 15, 15),
-        .minYield = YIELD_RATE(2, 2, 3, 3),
-        .description1 = COMPOUND_STRING("A rare variety that is overgrown with"),
-        .description2 = COMPOUND_STRING("hair. It is quite bitter."),
+        .maxYield = YIELD_RATE(20, 20, 15, 15),
+        .minYield = YIELD_RATE(10, 10, 3, 3),
+        .description1 = COMPOUND_STRING("A nutritious wild berry, said to"),
+        .description2 = COMPOUND_STRING("raise a Pokemon's strength."),
         .growthDuration = GROWTH_DURATION(24, 24, 36, 24, 16, 24),
         .spicy = 0,
         .dry = 0,
@@ -720,16 +720,16 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_NOMEL_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_eyeroh_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Nomel"),
+        .name = _("Eyeroh"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .color = BERRY_COLOR_YELLOW,
         .size = 285,
-        .maxYield = YIELD_RATE(4, 10, 15, 15),
-        .minYield = YIELD_RATE(2, 2, 3, 3),
-        .description1 = COMPOUND_STRING("Quite sour. Just one bite makes it"),
-        .description2 = COMPOUND_STRING("impossible to taste for three days."),
+        .maxYield = YIELD_RATE(20, 20, 15, 15),
+        .minYield = YIELD_RATE(10, 10, 3, 3),
+        .description1 = COMPOUND_STRING("A nutritious wild berry, said to"),
+        .description2 = COMPOUND_STRING("raise a Pokemon's toughness."),
         .growthDuration = GROWTH_DURATION(24, 24, 36, 24, 16, 24),
         .spicy = 10,
         .dry = 0,
@@ -743,16 +743,16 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_SPELON_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_calcie_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Spelon"),
+        .name = _("Calcie"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_RED,
         .size = 133,
-        .maxYield = YIELD_RATE(2, 15, 15, 15),
-        .minYield = YIELD_RATE(1, 2, 3, 3),
-        .description1 = COMPOUND_STRING("The vividly red Berry is very spicy."),
-        .description2 = COMPOUND_STRING("Its warts secrete a spicy substance."),
+        .maxYield = YIELD_RATE(20, 20, 15, 15),
+        .minYield = YIELD_RATE(10, 10, 3, 3),
+        .description1 = COMPOUND_STRING("A nutritious wild berry, said to"),
+        .description2 = COMPOUND_STRING("raise a Pokemon's intelligence."),
         .growthDuration = GROWTH_DURATION(72, 60, 90, 24, 16, 24),
         .spicy = 40,
         .dry = 10,
@@ -766,16 +766,16 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_PAMTRE_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_zinkie_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Pamtre"),
+        .name = _("Zinkie"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .color = BERRY_COLOR_PURPLE,
         .size = 244,
-        .maxYield = YIELD_RATE(2, 15, 15, 15),
-        .minYield = YIELD_RATE(1, 3, 3, 3),
-        .description1 = COMPOUND_STRING("Drifts on the sea from somewhere."),
-        .description2 = COMPOUND_STRING("It is thought to grow elsewhere."),
+        .maxYield = YIELD_RATE(20, 20, 15, 15),
+        .minYield = YIELD_RATE(10, 10, 3, 3),
+        .description1 = COMPOUND_STRING("A nutritious wild berry, said to"),
+        .description2 = COMPOUND_STRING("raise a Pokemon's willpower."),
         .growthDuration = GROWTH_DURATION(72, 60, 90, 24, 16, 24),
         .spicy = 0,
         .dry = 40,
@@ -789,16 +789,16 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_WATMEL_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_carbo_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Watmel"),
+        .name = _("Carbo"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .color = BERRY_COLOR_PINK,
         .size = 250,
         .maxYield = YIELD_RATE(2, 15, 15, 15),
         .minYield = YIELD_RATE(1, 2, 3, 3),
-        .description1 = COMPOUND_STRING("A huge Berry, with some over 20"),
-        .description2 = COMPOUND_STRING("inches discovered. Exceedingly sweet."),
+        .description1 = COMPOUND_STRING("A nutritious wild berry, said to"),
+        .description2 = COMPOUND_STRING("raise a Pokemon's agility."),
         .growthDuration = GROWTH_DURATION(72, 60, 90, 24, 16, 24),
         .spicy = 0,
         .dry = 0,
@@ -1645,13 +1645,13 @@ const struct BerryCrushBerryData gBerryCrush_BerryData[] = {
     [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 100, .powder = 100},
     [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 100, .powder = 100},
     [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
-    [ITEM_CORNN_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 130, .powder = 150},
-    [ITEM_MAGOST_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
-    [ITEM_RABUTA_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
-    [ITEM_NOMEL_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 130, .powder = 150},
-    [ITEM_SPELON_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
-    [ITEM_PAMTRE_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
-    [ITEM_WATMEL_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
+    [ITEM_hipup_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 130, .powder = 150},
+    [ITEM_pipup_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
+    [ITEM_protie_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
+    [ITEM_eyeroh_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 130, .powder = 150},
+    [ITEM_calcie_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
+    [ITEM_zinkie_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
+    [ITEM_carbo_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
     [ITEM_DURIN_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 160, .powder = 250},
     [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 160, .powder = 250},
     [ITEM_LIECHI_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 180, .powder = 500},
