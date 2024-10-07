@@ -610,22 +610,22 @@ static const u8 sPrizeBerryIds[][10] =
         ITEM_TO_BERRY(ITEM_HONDEW_BERRY) - 1,
         ITEM_TO_BERRY(ITEM_GREPA_BERRY) - 1,
         ITEM_TO_BERRY(ITEM_TAMATO_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_hipup_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_pipup_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_protie_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_eyeroh_BERRY) - 1
+        ITEM_TO_BERRY(ITEM_HIPUP_BERRY) - 1,
+        ITEM_TO_BERRY(ITEM_PIPUP_BERRY) - 1,
+        ITEM_TO_BERRY(ITEM_PROTIE_BERRY) - 1,
+        ITEM_TO_BERRY(ITEM_EYEROH_BERRY) - 1
     },
     { // Possible prizes with 5 players
-        ITEM_TO_BERRY(ITEM_calcie_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_zinkie_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_carbo_BERRY) - 1,
+        ITEM_TO_BERRY(ITEM_CALCIE_BERRY) - 1,
+        ITEM_TO_BERRY(ITEM_ZINKIE_BERRY) - 1,
+        ITEM_TO_BERRY(ITEM_CARBO_BERRY) - 1,
         ITEM_TO_BERRY(ITEM_DURIN_BERRY) - 1,
         ITEM_TO_BERRY(ITEM_BELUE_BERRY) - 1,
         ITEM_TO_BERRY(ITEM_BELUE_BERRY) - 1,
         ITEM_TO_BERRY(ITEM_DURIN_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_carbo_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_zinkie_BERRY) - 1,
-        ITEM_TO_BERRY(ITEM_calcie_BERRY) - 1
+        ITEM_TO_BERRY(ITEM_CARBO_BERRY) - 1,
+        ITEM_TO_BERRY(ITEM_ZINKIE_BERRY) - 1,
+        ITEM_TO_BERRY(ITEM_CALCIE_BERRY) - 1
     },
 };
 
