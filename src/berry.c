@@ -651,7 +651,7 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_hipup_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_HIPUP_BERRY - FIRST_BERRY_INDEX] =
     {
         .name = _("Hipup"),
         .firmness = BERRY_FIRMNESS_HARD,
@@ -674,7 +674,7 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_pipup_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_PIPUP_BERRY - FIRST_BERRY_INDEX] =
     {
         .name = _("Pipup"),
         .firmness = BERRY_FIRMNESS_HARD,
@@ -697,7 +697,7 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_protie_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_PROTIE_BERRY - FIRST_BERRY_INDEX] =
     {
         .name = _("Protie"),
         .firmness = BERRY_FIRMNESS_SOFT,
@@ -720,7 +720,7 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_eyeroh_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_EYEROH_BERRY - FIRST_BERRY_INDEX] =
     {
         .name = _("Eyeroh"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
@@ -743,7 +743,7 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_calcie_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_CALCIE_BERRY - FIRST_BERRY_INDEX] =
     {
         .name = _("Calcie"),
         .firmness = BERRY_FIRMNESS_SOFT,
@@ -766,7 +766,7 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_zinkie_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_ZINKIE_BERRY - FIRST_BERRY_INDEX] =
     {
         .name = _("Zinkie"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
@@ -789,7 +789,7 @@ const struct Berry gBerries[] =
         .pestsBonus = 6,
     },
 
-    [ITEM_carbo_BERRY - FIRST_BERRY_INDEX] =
+    [ITEM_CARBO_BERRY - FIRST_BERRY_INDEX] =
     {
         .name = _("Carbo"),
         .firmness = BERRY_FIRMNESS_SOFT,
@@ -1645,13 +1645,13 @@ const struct BerryCrushBerryData gBerryCrush_BerryData[] = {
     [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 100, .powder = 100},
     [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 100, .powder = 100},
     [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
-    [ITEM_hipup_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 130, .powder = 150},
-    [ITEM_pipup_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
-    [ITEM_protie_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
-    [ITEM_eyeroh_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 130, .powder = 150},
-    [ITEM_calcie_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
-    [ITEM_zinkie_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
-    [ITEM_carbo_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
+    [ITEM_HIPUP_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 130, .powder = 150},
+    [ITEM_PIPUP_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
+    [ITEM_PROTIE_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
+    [ITEM_EYEROH_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 130, .powder = 150},
+    [ITEM_CALCIE_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
+    [ITEM_ZINKIE_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
+    [ITEM_CARBO_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
     [ITEM_DURIN_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 160, .powder = 250},
     [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 160, .powder = 250},
     [ITEM_LIECHI_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 180, .powder = 500},
