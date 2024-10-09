@@ -1425,7 +1425,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
             gOverworldPalette_OricorioBaile,
             gShinyOverworldPalette_OricorioBaile
         )
-        .levelUpLearnset = sOricorioLevelUpLearnset,
+        .levelUpLearnset = sOricorioBaileLevelUpLearnset,
         .teachableLearnset = sOricorioTeachableLearnset,
         .eggMoveLearnset = sOricorioEggMoveLearnset,
         .formSpeciesIdTable = sOricorioFormSpeciesIdTable,
@@ -1489,7 +1489,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
             gOverworldPalette_OricorioPomPom,
             gShinyOverworldPalette_OricorioPomPom
         )
-        .levelUpLearnset = sOricorioLevelUpLearnset,
+        .levelUpLearnset = sOricorioPomPomLevelUpLearnset,
         .teachableLearnset = sOricorioTeachableLearnset,
         .eggMoveLearnset = sOricorioEggMoveLearnset,
         .formSpeciesIdTable = sOricorioFormSpeciesIdTable,
@@ -1553,7 +1553,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
             gOverworldPalette_OricorioPau,
             gShinyOverworldPalette_OricorioPau
         )
-        .levelUpLearnset = sOricorioLevelUpLearnset,
+        .levelUpLearnset = sOricorioPauLevelUpLearnset,
         .teachableLearnset = sOricorioTeachableLearnset,
         .eggMoveLearnset = sOricorioEggMoveLearnset,
         .formSpeciesIdTable = sOricorioFormSpeciesIdTable,
@@ -1617,7 +1617,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
             gOverworldPalette_OricorioSensu,
             gShinyOverworldPalette_OricorioSensu
         )
-        .levelUpLearnset = sOricorioLevelUpLearnset,
+        .levelUpLearnset = sOricorioSensuLevelUpLearnset,
         .teachableLearnset = sOricorioTeachableLearnset,
         .eggMoveLearnset = sOricorioEggMoveLearnset,
         .formSpeciesIdTable = sOricorioFormSpeciesIdTable,
