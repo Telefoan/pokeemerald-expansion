@@ -468,7 +468,7 @@ const u8 gItemEffect_HipupBerry[10] = {
 };
 
 const u8 gItemEffect_PipupBerry[9] = {
-    [4] = ITEM4_PP_UP
+    [4] = ITEM4_PP_UP,
     [5] = ITEM5_FRIENDSHIP_ALL,
     EV_BERRY_FRIENDSHIP_CHANGE,
 };
