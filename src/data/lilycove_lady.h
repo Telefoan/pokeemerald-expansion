@@ -314,7 +314,7 @@ static const u16 sQuizLadyPrizes[] =
     ITEM_MAX_ETHER,
     ITEM_MAX_ETHER,
     ITEM_MAX_ETHER,
-    ITEM_WATMEL_BERRY,
+    ITEM_CARBO_BERRY,
     ITEM_BELUE_BERRY,
     ITEM_DURIN_BERRY,
     ITEM_LUXURY_BALL,
@@ -368,8 +368,8 @@ static const u16 sFavorLadyAcceptedItems_Roundish[] =
     ITEM_ASPEAR_BERRY,
     ITEM_ORAN_BERRY,
     ITEM_GREPA_BERRY,
-    ITEM_MAGOST_BERRY,
-    ITEM_WATMEL_BERRY,
+    ITEM_PIPUP_BERRY,
+    ITEM_CARBO_BERRY,
     ITEM_POKE_BALL,
     ITEM_ULTRA_BALL,
     ITEM_NONE
@@ -389,7 +389,7 @@ static const u16 sFavorLadyAcceptedItems_Whamish[] =
     ITEM_NANAB_BERRY,
     ITEM_WEPEAR_BERRY,
     ITEM_KELPSY_BERRY,
-    ITEM_NOMEL_BERRY,
+    ITEM_EYEROH_BERRY,
     ITEM_DURIN_BERRY,
     ITEM_NONE
 };
@@ -427,7 +427,7 @@ static const u16 sFavorLadyAcceptedItems_Sticky[] =
     ITEM_DIRE_HIT,
     ITEM_X_ACCURACY,
     ITEM_GUARD_SPEC,
-    ITEM_WATMEL_BERRY,
+    ITEM_CARBO_BERRY,
     ITEM_LEFTOVERS,
     ITEM_TINY_MUSHROOM,
     ITEM_HEART_SCALE,
