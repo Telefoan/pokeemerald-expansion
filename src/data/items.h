@@ -9617,123 +9617,130 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_TamatoBerry,
     },
 
-    [ITEM_CORNN_BERRY] =
+    [ITEM_HIPUP_BERRY] =
     {
-        .name = _("Cornn Berry"),
-        .pluralName = _("Cornn Berries"),
+        .name = _("Hipup Berry"),
+        .pluralName = _("Hipup Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Cornn."),
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases CONSTITUTION."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_HipupBerry,
         .flingPower = 10,
-        .iconPic = gItemIcon_CornnBerry,
-        .iconPalette = gItemIconPalette_CornnBerry,
+        .iconPic = gItemIcon_HipupBerry,
+        .iconPalette = gItemIconPalette_HipupBerry,
     },
 
-    [ITEM_MAGOST_BERRY] =
+    [ITEM_PIPUP_BERRY] =
     {
-        .name = _("Magost Berry"),
-        .pluralName = _("Magost Berries"),
+        .name = _("Pipup Berry"),
+        .pluralName = _("Pipup Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Magost."),
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases LONGEVITY."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_PipupBerry,
         .flingPower = 10,
-        .iconPic = gItemIcon_MagostBerry,
-        .iconPalette = gItemIconPalette_MagostBerry,
+        .iconPic = gItemIcon_PipupBerry,
+        .iconPalette = gItemIconPalette_PipupBerry,
     },
 
-    [ITEM_RABUTA_BERRY] =
+    [ITEM_PROTIE_BERRY] =
     {
-        .name = _("Rabuta Berry"),
-        .pluralName = _("Rabuta Berries"),
+        .name = _("Protie Berry"),
+        .pluralName = _("Protie Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Rabuta."),
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases STRENGTH."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_ProtieBerry,
         .flingPower = 10,
-        .iconPic = gItemIcon_RabutaBerry,
-        .iconPalette = gItemIconPalette_RabutaBerry,
+        .iconPic = gItemIcon_ProtieBerry,
+        .iconPalette = gItemIconPalette_ProtieBerry,
     },
 
-    [ITEM_NOMEL_BERRY] =
+    [ITEM_EYEROH_BERRY] =
     {
-        .name = _("Nomel Berry"),
-        .pluralName = _("Nomel Berries"),
+        .name = _("Eyeroh Berry"),
+        .pluralName = _("Eyeroh Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Nomel."),
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases DEFENSE."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_EyerohBerry,
         .flingPower = 10,
-        .iconPic = gItemIcon_NomelBerry,
-        .iconPalette = gItemIconPalette_NomelBerry,
+        .iconPic = gItemIcon_EyerohBerry,
+        .iconPalette = gItemIconPalette_EyerohBerry,
     },
 
-    [ITEM_SPELON_BERRY] =
+    [ITEM_CALCIE_BERRY] =
     {
-        .name = _("Spelon Berry"),
-        .pluralName = _("Spelon Berries"),
+        .name = _("Calcie Berry"),
+        .pluralName = _("Calcie Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Spelon."),
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases INTELLIGENCE."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_CalcieBerry,
         .flingPower = 10,
-        .iconPic = gItemIcon_SpelonBerry,
-        .iconPalette = gItemIconPalette_SpelonBerry,
+        .iconPic = gItemIcon_CalcieBerry,
+        .iconPalette = gItemIconPalette_CalcieBerry,
     },
 
-    [ITEM_PAMTRE_BERRY] =
+    [ITEM_ZINKIE_BERRY] =
     {
-        .name = _("Pamtre Berry"),
-        .pluralName = _("Pamtre Berries"),
+        .name = _("Zinkie Berry"),
+        .pluralName = _("Zinkie Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Pamtre."),
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases WISDOM."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicne,
+        .effect = gItemEffect_ZinkieBerry,
         .flingPower = 10,
-        .iconPic = gItemIcon_PamtreBerry,
-        .iconPalette = gItemIconPalette_PamtreBerry,
+        .iconPic = gItemIcon_ZinkieBerry,
+        .iconPalette = gItemIconPalette_ZinkieBerry,
     },
 
-    [ITEM_WATMEL_BERRY] =
+    [ITEM_CARBO_BERRY] =
     {
-        .name = _("Watmel Berry"),
-        .pluralName = _("Watmel Berries"),
+        .name = _("Carbo Berry"),
+        .pluralName = _("Carbo Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Watmel."),
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases AGILITY."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_CarboBerry,
         .flingPower = 10,
-        .iconPic = gItemIcon_WatmelBerry,
-        .iconPalette = gItemIconPalette_WatmelBerry,
+        .iconPic = gItemIcon_CarboBerry,
+        .iconPalette = gItemIconPalette_CarboBerry,
     },
 
     [ITEM_DURIN_BERRY] =
