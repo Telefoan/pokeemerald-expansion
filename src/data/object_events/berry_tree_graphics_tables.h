@@ -334,47 +334,47 @@ static const struct SpriteFrameImage sPicTable_ProtieBerryTree[] = {
 
 const u8 gBerryTreePaletteSlotTable_Protie[] = {3, 4, 4, 4, 4, 4, 4};
 
-static const struct SpriteFrameImage sPicTable_eyerohBerryTree[] = {
+static const struct SpriteFrameImage sPicTable_EyerohBerryTree[] = {
     overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
     overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
     overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
-    overworld_frame(gObjectEventPic_eyerohBerryTree, 2, 4, 0),
-    overworld_frame(gObjectEventPic_eyerohBerryTree, 2, 4, 1),
-    overworld_frame(gObjectEventPic_eyerohBerryTree, 2, 4, 2),
-    overworld_frame(gObjectEventPic_eyerohBerryTree, 2, 4, 3),
-    overworld_frame(gObjectEventPic_eyerohBerryTree, 2, 4, 4),
-    overworld_frame(gObjectEventPic_eyerohBerryTree, 2, 4, 5),
+    overworld_frame(gObjectEventPic_EyerohBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_EyerohBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_EyerohBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_EyerohBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_EyerohBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_EyerohBerryTree, 2, 4, 5),
 };
 
-const u8 gBerryTreePaletteSlotTable_eyeroh[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Eyeroh[] = {3, 4, 3, 3, 3, 3, 3};
 
-static const struct SpriteFrameImage sPicTable_calcieBerryTree[] = {
+static const struct SpriteFrameImage sPicTable_CalcieBerryTree[] = {
     overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
     overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
     overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
-    overworld_frame(gObjectEventPic_calcieBerryTree, 2, 4, 0),
-    overworld_frame(gObjectEventPic_calcieBerryTree, 2, 4, 1),
-    overworld_frame(gObjectEventPic_calcieBerryTree, 2, 4, 2),
-    overworld_frame(gObjectEventPic_calcieBerryTree, 2, 4, 3),
-    overworld_frame(gObjectEventPic_calcieBerryTree, 2, 4, 4),
-    overworld_frame(gObjectEventPic_calcieBerryTree, 2, 4, 5),
+    overworld_frame(gObjectEventPic_CalcieBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_CalcieBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_CalcieBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_CalcieBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_CalcieBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_CalcieBerryTree, 2, 4, 5),
 };
 
-const u8 gBerryTreePaletteSlotTable_calcie[] = {3, 4, 3, 3, 3, 3, 3};
+const u8 gBerryTreePaletteSlotTable_Calcie[] = {3, 4, 3, 3, 3, 3, 3};
 
-static const struct SpriteFrameImage sPicTable_zinkieBerryTree[] = {
+static const struct SpriteFrameImage sPicTable_ZinkieBerryTree[] = {
     overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
     overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
     overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
-    overworld_frame(gObjectEventPic_zinkieBerryTree, 2, 4, 0),
-    overworld_frame(gObjectEventPic_zinkieBerryTree, 2, 4, 1),
-    overworld_frame(gObjectEventPic_zinkieBerryTree, 2, 4, 2),
-    overworld_frame(gObjectEventPic_zinkieBerryTree, 2, 4, 3),
-    overworld_frame(gObjectEventPic_zinkieBerryTree, 2, 4, 4),
-    overworld_frame(gObjectEventPic_zinkieBerryTree, 2, 4, 5),
+    overworld_frame(gObjectEventPic_ZinkieBerryTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_ZinkieBerryTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_ZinkieBerryTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_ZinkieBerryTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_ZinkieBerryTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_ZinkieBerryTree, 2, 4, 5),
 };
 
-const u8 gBerryTreePaletteSlotTable_zinkie[] = {3, 4, 2, 2, 2, 2, 2};
+const u8 gBerryTreePaletteSlotTable_Zinkie[] = {3, 4, 2, 2, 2, 2, 2};
 
 static const struct SpriteFrameImage sPicTable_DurinBerryTree[] = {
     overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
@@ -670,7 +670,7 @@ const struct SpriteFrameImage *const gBerryTreePicTablePointers[] = {
     [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX]            = sPicTable_HondewBerryTree,
     [ITEM_CHILAN_BERRY - FIRST_BERRY_INDEX]           = sPicTable_GrepaBerryTree,
     [ITEM_OCCA_BERRY - FIRST_BERRY_INDEX]             = sPicTable_OccaBerryTree,
-    [ITEM_PASSHO_BERRY - FIRST_BERRY_INDEX]           = sPicTable_hipupBerryTree,
+    [ITEM_PASSHO_BERRY - FIRST_BERRY_INDEX]           = sPicTable_HipupBerryTree,
     [ITEM_WACAN_BERRY - FIRST_BERRY_INDEX]            = sPicTable_RazzBerryTree,
     [ITEM_RINDO_BERRY - FIRST_BERRY_INDEX]            = sPicTable_TamatoBerryTree,
     [ITEM_YACHE_BERRY - FIRST_BERRY_INDEX]            = sPicTable_YacheBerryTree,
@@ -741,7 +741,7 @@ const u8 *const gBerryTreePaletteSlotTablePointers[] = {
     [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Hondew,
     [ITEM_CHILAN_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Grepa,
     [ITEM_OCCA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Occa,
-    [ITEM_PASSHO_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_hipup,
+    [ITEM_PASSHO_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Hipup,
     [ITEM_WACAN_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Razz,
     [ITEM_RINDO_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato,
     [ITEM_YACHE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Yache,
@@ -763,7 +763,7 @@ const u8 *const gBerryTreePaletteSlotTablePointers[] = {
     [ITEM_PETAYA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Pomeg,
     [ITEM_APICOT_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Grepa,
     [ITEM_LANSAT_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Lansat,
-    [ITEM_STARF_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_hipup,
+    [ITEM_STARF_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Hipup,
     [ITEM_ENIGMA_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Durin,
     [ITEM_MICLE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Micle,
     [ITEM_CUSTAP_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Custap,
