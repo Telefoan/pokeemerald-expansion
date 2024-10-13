@@ -9718,7 +9718,7 @@ const struct Item gItemsInfo[] =
             "increases WISDOM."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_Medicne,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .effect = gItemEffect_ZinkieBerry,
         .flingPower = 10,
         .iconPic = gItemIcon_ZinkieBerry,
