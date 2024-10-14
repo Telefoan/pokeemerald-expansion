@@ -890,7 +890,7 @@ static const u8 sOpponentBerrySets[NUM_NPC_BERRIES * 2][3] =
 };
 
 // Berry master's berries follow the same rules as above, but instead of explicitly listing
-// the alternate sets if the player chooses one of these berries, it implicitly uses these berries - 5, i.e. Tamato - Nomel
+// the alternate sets if the player chooses one of these berries, it implicitly uses these berries - 5, i.e. Tamato - EYEROH
 static const u8 sBerryMasterBerries[] = {
     ITEM_TO_BERRY(ITEM_CALCIE_BERRY) - 1,
     ITEM_TO_BERRY(ITEM_ZINKIE_BERRY) - 1,
