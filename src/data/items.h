@@ -9627,7 +9627,7 @@ const struct Item gItemsInfo[] =
             "extremely nutritious,\n"
             "increases CONSTITUTION."),
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_BAG_MENU,
+        .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .effect = gItemEffect_HipupBerry,
         .flingPower = 10,
@@ -9645,7 +9645,7 @@ const struct Item gItemsInfo[] =
             "extremely nutritious,\n"
             "increases LONGEVITY."),
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_BAG_MENU,
+        .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .effect = gItemEffect_PipupBerry,
         .flingPower = 10,
@@ -9663,7 +9663,7 @@ const struct Item gItemsInfo[] =
             "extremely nutritious,\n"
             "increases STRENGTH."),
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_BAG_MENU,
+        .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .effect = gItemEffect_ProtieBerry,
         .flingPower = 10,
@@ -9681,7 +9681,7 @@ const struct Item gItemsInfo[] =
             "extremely nutritious,\n"
             "increases DEFENSE."),
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_BAG_MENU,
+        .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .effect = gItemEffect_EyerohBerry,
         .flingPower = 10,
@@ -9699,7 +9699,7 @@ const struct Item gItemsInfo[] =
             "extremely nutritious,\n"
             "increases INTELLIGENCE."),
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_BAG_MENU,
+        .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .effect = gItemEffect_CalcieBerry,
         .flingPower = 10,
@@ -9717,7 +9717,7 @@ const struct Item gItemsInfo[] =
             "extremely nutritious,\n"
             "increases WISDOM."),
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_BAG_MENU,
+        .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .effect = gItemEffect_ZinkieBerry,
         .flingPower = 10,
@@ -9735,7 +9735,7 @@ const struct Item gItemsInfo[] =
             "extremely nutritious,\n"
             "increases AGILITY."),
         .pocket = POCKET_BERRIES,
-        .type = ITEM_USE_BAG_MENU,
+        .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
         .effect = gItemEffect_CarboBerry,
         .flingPower = 10,
