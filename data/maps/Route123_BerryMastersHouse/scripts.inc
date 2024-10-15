@@ -82,7 +82,7 @@ Route123_BerryMastersHouse_EventScript_GiveCalcieBerry::
 	end
 
 Route123_BerryMastersHouse_EventScript_GiveZinkieBerry::
-	goto_if_set FLAG_RECEIVED_ZINKIEE_BERRY, Route123_BerryMastersHouse_EventScript_GiveNormalBerry
+	goto_if_set FLAG_RECEIVED_ZINKIE_BERRY, Route123_BerryMastersHouse_EventScript_GiveNormalBerry
 	msgbox Route123_BerryMastersHouse_Text_InspirationalTakeThis, MSGBOX_DEFAULT
 	giveitem ITEM_ZINKIE_BERRY
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
