@@ -3547,6 +3547,22 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_BlackApricorn,
     },
 
+    [ITEM_BROWN_APRICORN] =
+    {
+        .name = HANDLE_EXPANDED_ITEM_NAME("BrownApricorn", "Brown Apricorn"),
+        .pluralName = _("Brown Apricorns"),
+        .price = (I_PRICE == GEN_4) ? 0 : ((I_PRICE >= GEN_5 && I_PRICE <= GEN_7) ? 20 : 200),
+        .description = COMPOUND_STRING(
+            "A brown apricorn.\n"
+            "It assails your\n"
+            "nostrils."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_RedApricorn, //need new icon
+        .iconPalette = gItemIconPalette_RedApricorn, //need new pallete
+    },
+    
     [ITEM_WISHING_PIECE] =
     {
         .name = HANDLE_EXPANDED_ITEM_NAME("WishingPiece", "Wishing Piece"),
