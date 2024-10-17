@@ -1845,7 +1845,15 @@ const struct BerryCrushBerryData gBerryCrush_BerryData[] = {
     [ITEM_APICOT_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 180, .powder = 500},
     [ITEM_LANSAT_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 200, .powder = 750},
     [ITEM_STARF_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 200, .powder = 750},
-    [ITEM_ENIGMA_BERRY_E_READER - FIRST_BERRY_INDEX] = {.difficulty = 150, .powder = 200}
+    [ITEM_ENIGMA_BERRY_E_READER - FIRST_BERRY_INDEX] = {.difficulty = 150, .powder = 200},
+    [ITEM_BLACK_APRICORN - FIRST_BERRY_INDEX]        = {.difficulty = 150, .powder = 200},
+    [ITEM_BLUE_APRICORN - FIRST_BERRY_INDEX]         = {.difficulty = 150, .powder = 200},
+    [ITEM_GREEN_APRICORN - FIRST_BERRY_INDEX]        = {.difficulty = 150, .powder = 200},
+    [ITEM_PINK_APRICORN - FIRST_BERRY_INDEX]         = {.difficulty = 150, .powder = 200},
+    [ITEM_RED_APRICORN - FIRST_BERRY_INDEX]          = {.difficulty = 150, .powder = 200},
+    [ITEM_WHITE_APRICORN - FIRST_BERRY_INDEX]        = {.difficulty = 150, .powder = 200},
+    [ITEM_YELLOW_APRICORN - FIRST_BERRY_INDEX]       = {.difficulty = 150, .powder = 200},
+    [ITEM_BROWN_APRICORN - FIRST_BERRY_INDEX]        = {.difficulty = 150, .powder = 200}
 };
 
 const struct BerryTree gBlankBerryTree = {};
