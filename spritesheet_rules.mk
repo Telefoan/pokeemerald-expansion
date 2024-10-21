@@ -611,6 +611,22 @@ $(OBJEVENTGFXDIR)/berry_trees/rowap.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/berry_trees/micle.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+# new EV Berry Trees
+$(OBJEVENTGFXDIR)/berry_trees/hipup.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/berry_trees/protie.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/berry_trees/eyeroh.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/berry_trees/calcie.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/berry_trees/zinkie.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 
 $(OBJEVENTGFXDIR)/misc/breakable_rock.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
