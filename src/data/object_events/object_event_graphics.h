@@ -262,11 +262,11 @@ const u32 gObjectEventPic_KelpsyBerryTree[] = INCBIN_U32("graphics/object_events
 const u32 gObjectEventPic_HondewBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/hondew.4bpp");
 const u32 gObjectEventPic_GrepaBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/grepa.4bpp");
 const u32 gObjectEventPic_TamatoBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/tamato.4bpp");
-const u32 gObjectEventPic_hipupBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/hipup.4bpp");
-const u32 gObjectEventPic_protieBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/protie.4bpp");
-const u32 gObjectEventPic_eyerohBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/eyeroh.4bpp");
-const u32 gObjectEventPic_calcieBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/calcie.4bpp");
-const u32 gObjectEventPic_zinkieBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/zinkie.4bpp");
+const u32 gObjectEventPic_CornnBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/cornn.4bpp");
+const u32 gObjectEventPic_RabutaBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/rabuta.4bpp");
+const u32 gObjectEventPic_NomelBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/nomel.4bpp");
+const u32 gObjectEventPic_SpelonBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/spelon.4bpp");
+const u32 gObjectEventPic_PamtreBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/pamtre.4bpp");
 const u32 gObjectEventPic_DurinBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/durin.4bpp");
 const u32 gObjectEventPic_OccaBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/occa.4bpp");
 const u32 gObjectEventPic_YacheBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/yache.4bpp");
@@ -285,6 +285,14 @@ const u32 gObjectEventPic_MicleBerryTree[] = INCBIN_U32("graphics/object_events/
 const u32 gObjectEventPic_CustapBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/custap.4bpp");
 const u32 gObjectEventPic_JabocaBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/jaboca.4bpp");
 const u32 gObjectEventPic_RowapBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/rowap.4bpp");
+
+//NEW BERRIES
+const u32 gObjectEventPic_HipupBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/hipup.4bpp");
+const u32 gObjectEventPic_ProtieBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/protie.4bpp");
+const u32 gObjectEventPic_EyerohBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/eyeroh.4bpp");
+const u32 gObjectEventPic_CalcieBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/calcie.4bpp");
+const u32 gObjectEventPic_ZinkieBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/zinkie.4bpp");
+
 const u32 gFieldEffectObjectPic_SurfBlob[] = INCBIN_U32("graphics/field_effects/pics/surf_blob.4bpp");
 const u32 gObjectEventPic_QuintyPlump[] = INCBIN_U32("graphics/object_events/pics/people/quinty_plump.4bpp");
 const u16 gObjectEventPal_QuintyPlump[] = INCBIN_U16("graphics/object_events/palettes/quinty_plump.gbapal");

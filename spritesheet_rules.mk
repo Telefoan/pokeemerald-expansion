@@ -485,7 +485,7 @@ $(OBJEVENTGFXDIR)/berry_trees/cheri.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/berry_trees/chesto.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/berry_trees/hipup.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/berry_trees/cornn.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/berry_trees/durin.4bpp: %.4bpp: %.png
@@ -521,13 +521,13 @@ $(OBJEVENTGFXDIR)/berry_trees/lum.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/berry_trees/mago.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/berry_trees/eyeroh.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/berry_trees/nomel.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/berry_trees/oran.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/berry_trees/zinkie.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/berry_trees/pamtre.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/berry_trees/pecha.4bpp: %.4bpp: %.png
@@ -539,7 +539,7 @@ $(OBJEVENTGFXDIR)/berry_trees/persim.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/berry_trees/pomeg.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/berry_trees/protie.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/berry_trees/rabuta.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/berry_trees/rawst.4bpp: %.4bpp: %.png
@@ -551,7 +551,7 @@ $(OBJEVENTGFXDIR)/berry_trees/razz.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/berry_trees/sitrus.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/berry_trees/calcie.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/berry_trees/spelon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/berry_trees/sprout.4bpp: %.4bpp: %.png
@@ -609,6 +609,22 @@ $(OBJEVENTGFXDIR)/berry_trees/rowap.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/berry_trees/micle.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+# new EV Berry Trees
+$(OBJEVENTGFXDIR)/berry_trees/hipup.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/berry_trees/protie.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/berry_trees/eyeroh.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/berry_trees/calcie.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/berry_trees/zinkie.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 
