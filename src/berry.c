@@ -1778,6 +1778,192 @@ const struct Berry gBerries[] =
         .weedsBonus = 2,
         .pestsBonus = 6,
     },
+
+    //Apricorns
+
+     [ITEM_BLACK_APRICORN - FIRST_BERRY_INDEX] =
+    {
+        .name = _("Black Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .firmness = BERRY_FIRMNESS_UNKNOWN,
+        .color = BERRY_COLOR_BLUE,
+        .size = 0,
+        .maxYield = YIELD_RATE(2, 5, 10, 13),
+        .minYield = YIELD_RATE(1, 1, 1, 2),
+        .description1 = COMPOUND_STRING("An apricorn known for its"),
+        .description2 = COMPOUND_STRING("weight. Do not consume."),
+        .growthDuration = GROWTH_DURATION(96, 96, 144, 96, 48, 72),
+        .spicy = 10,
+        .dry = 10,
+        .sweet = 30,
+        .bitter = 30,
+        .sour = 10,
+        .smoothness = 60,
+        .drainRate = 7,
+        .waterBonus = 2,
+        .weedsBonus = 0,
+        .pestsBonus = 2,
+    },
+
+    [ITEM_BLUE_APRICORN - FIRST_BERRY_INDEX] =
+    {
+        .name = _("Blue Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .firmness = BERRY_FIRMNESS_UNKNOWN,
+        .color = BERRY_COLOR_BLUE,
+        .size = 0,
+        .maxYield = YIELD_RATE(2, 5, 10, 13),
+        .minYield = YIELD_RATE(1, 1, 1, 2),
+        .description1 = COMPOUND_STRING("An apricorn that floats"),
+        .description2 = COMPOUND_STRING("on water. Do not consume."),
+        .growthDuration = GROWTH_DURATION(96, 96, 144, 96, 48, 72),
+        .spicy = 10,
+        .dry = 10,
+        .sweet = 30,
+        .bitter = 30,
+        .sour = 10,
+        .smoothness = 60,
+        .drainRate = 7,
+        .waterBonus = 2,
+        .weedsBonus = 0,
+        .pestsBonus = 2,
+    },
+
+    [ITEM_GREEN_APRICORN - FIRST_BERRY_INDEX] =
+    {
+        .name = _("Green Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .firmness = BERRY_FIRMNESS_UNKNOWN,
+        .color = BERRY_COLOR_GREEN,
+        .size = 0,
+        .maxYield = YIELD_RATE(2, 5, 10, 13),
+        .minYield = YIELD_RATE(1, 1, 1, 2),
+        .description1 = COMPOUND_STRING("An apricorn known for its"),
+        .description2 = COMPOUND_STRING("soothing smell. Do not consume."),
+        .growthDuration = GROWTH_DURATION(96, 96, 144, 96, 48, 72),
+        .spicy = 10,
+        .dry = 10,
+        .sweet = 30,
+        .bitter = 30,
+        .sour = 10,
+        .smoothness = 60,
+        .drainRate = 7,
+        .waterBonus = 2,
+        .weedsBonus = 0,
+        .pestsBonus = 2,
+    },
+
+    [ITEM_PINK_APRICORN - FIRST_BERRY_INDEX] =
+    {
+        .name = _("Pink Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .firmness = BERRY_FIRMNESS_UNKNOWN,
+        .color = BERRY_COLOR_PINK,
+        .size = 0,
+        .maxYield = YIELD_RATE(2, 5, 10, 13),
+        .minYield = YIELD_RATE(1, 1, 1, 2),
+        .description1 = COMPOUND_STRING("An apricorn known to mimic"),
+        .description2 = COMPOUND_STRING("pheromones. Do not consume."),
+        .growthDuration = GROWTH_DURATION(96, 96, 144, 96, 48, 72),
+        .spicy = 10,
+        .dry = 10,
+        .sweet = 30,
+        .bitter = 30,
+        .sour = 10,
+        .smoothness = 60,
+        .drainRate = 7,
+        .waterBonus = 2,
+        .weedsBonus = 0,
+        .pestsBonus = 2,
+    },
+
+    [ITEM_RED_APRICORN - FIRST_BERRY_INDEX] =
+    {
+        .name = _("Red Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .firmness = BERRY_FIRMNESS_UNKNOWN,
+        .color = BERRY_COLOR_RED,
+        .size = 0,
+        .maxYield = YIELD_RATE(2, 5, 10, 13),
+        .minYield = YIELD_RATE(1, 1, 1, 2),
+        .description1 = COMPOUND_STRING("An apricorn known to inspire"),
+        .description2 = COMPOUND_STRING("awe. Do not consume."),
+        .growthDuration = GROWTH_DURATION(96, 96, 144, 96, 48, 72),
+        .spicy = 10,
+        .dry = 10,
+        .sweet = 30,
+        .bitter = 30,
+        .sour = 10,
+        .smoothness = 60,
+        .drainRate = 7,
+        .waterBonus = 2,
+        .weedsBonus = 0,
+        .pestsBonus = 2,
+    },
+
+    [ITEM_WHITE_APRICORN - FIRST_BERRY_INDEX] =
+    {
+        .name = _("White Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .firmness = BERRY_FIRMNESS_UNKNOWN,
+        .color = BERRY_COLOR_YELLOW,
+        .size = 0,
+        .maxYield = YIELD_RATE(2, 5, 10, 13),
+        .minYield = YIELD_RATE(1, 1, 1, 2),
+        .description1 = COMPOUND_STRING("An apricorn known for its"),
+        .description2 = COMPOUND_STRING("aerodynamic shape. Do not consume."),
+        .growthDuration = GROWTH_DURATION(96, 96, 144, 96, 48, 72),
+        .spicy = 10,
+        .dry = 10,
+        .sweet = 30,
+        .bitter = 30,
+        .sour = 10,
+        .smoothness = 60,
+        .drainRate = 7,
+        .waterBonus = 2,
+        .weedsBonus = 0,
+        .pestsBonus = 2,
+    },
+
+    [ITEM_YELLOW_APRICORN - FIRST_BERRY_INDEX] =
+    {
+        .name = _("Yellow Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .firmness = BERRY_FIRMNESS_UNKNOWN,
+        .color = BERRY_COLOR_YELLOW,
+        .size = 0,
+        .maxYield = YIELD_RATE(2, 5, 10, 13),
+        .minYield = YIELD_RATE(1, 1, 1, 2),
+        .description1 = COMPOUND_STRING("An apricorn that looks like"),
+        .description2 = COMPOUND_STRING("the moon. Do not consume."),
+        .growthDuration = GROWTH_DURATION(96, 96, 144, 96, 48, 72),
+        .spicy = 10,
+        .dry = 10,
+        .sweet = 30,
+        .bitter = 30,
+        .sour = 10,
+        .smoothness = 60,
+        .drainRate = 7,
+        .waterBonus = 2,
+        .weedsBonus = 0,
+        .pestsBonus = 2,
+    },
+
+    [ITEM_BROWN_APRICORN - FIRST_BERRY_INDEX] =
+    {
+        .name = _("Brown Apricorn"), 
+        .firmness = BERRY_FIRMNESS_UNKNOWN,
+        .color = BERRY_COLOR_RED,
+        .size = 0,
+        .maxYield = YIELD_RATE(2, 5, 10, 13),
+        .minYield = YIELD_RATE(1, 1, 1, 2),
+        .description1 = COMPOUND_STRING("An apricorn that is unremarkable"),
+        .description2 = COMPOUND_STRING("but very common. Do not consume."),
+        .growthDuration = GROWTH_DURATION(96, 96, 144, 96, 48, 72),
+        .spicy = 10,
+        .dry = 10,
+        .sweet = 30,
+        .bitter = 30,
+        .sour = 10,
+        .smoothness = 60,
+        .drainRate = 7,
+        .waterBonus = 2,
+        .weedsBonus = 0,
+        .pestsBonus = 2,
+    },
 };
 
 const struct BerryCrushBerryData gBerryCrush_BerryData[] = {
@@ -1830,7 +2016,15 @@ const struct BerryCrushBerryData gBerryCrush_BerryData[] = {
     [ITEM_EYEROH_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 130, .powder = 150},
     [ITEM_CALCIE_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
     [ITEM_ZINKIE_BERRY - FIRST_BERRY_INDEX]          = {.difficulty = 160, .powder = 250},
-    [ITEM_CARBO_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 160, .powder = 250}
+    [ITEM_CARBO_BERRY - FIRST_BERRY_INDEX]           = {.difficulty = 160, .powder = 250},
+    [ITEM_BLACK_APRICORN - FIRST_BERRY_INDEX]        = {.difficulty = 150, .powder = 200},
+    [ITEM_BLUE_APRICORN - FIRST_BERRY_INDEX]         = {.difficulty = 150, .powder = 200},
+    [ITEM_GREEN_APRICORN - FIRST_BERRY_INDEX]        = {.difficulty = 150, .powder = 200},
+    [ITEM_PINK_APRICORN - FIRST_BERRY_INDEX]         = {.difficulty = 150, .powder = 200},
+    [ITEM_RED_APRICORN - FIRST_BERRY_INDEX]          = {.difficulty = 150, .powder = 200},
+    [ITEM_WHITE_APRICORN - FIRST_BERRY_INDEX]        = {.difficulty = 150, .powder = 200},
+    [ITEM_YELLOW_APRICORN - FIRST_BERRY_INDEX]       = {.difficulty = 150, .powder = 200},
+    [ITEM_BROWN_APRICORN - FIRST_BERRY_INDEX]        = {.difficulty = 150, .powder = 200}
 };
 
 const struct BerryTree gBlankBerryTree = {};

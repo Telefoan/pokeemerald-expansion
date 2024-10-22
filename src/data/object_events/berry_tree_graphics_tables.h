@@ -699,6 +699,120 @@ static const struct SpriteFrameImage sPicTable_ZinkieBerryTree[] = {
 
 const u8 gBerryTreePaletteSlotTable_Zinkie[] = {3, 4, 2, 2, 2, 2, 2};
 
+//apricorn trees
+static const struct SpriteFrameImage sPicTable_BlackApricornTree[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
+    overworld_frame(gObjectEventPic_BlackApricornTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_BlackApricornTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_BlackApricornTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_BlackApricornTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_BlackApricornTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_BlackApricornTree, 2, 4, 5),
+};
+
+const u8 gBerryTreePaletteSlotTable_BlackApricorn[] = {3, 4, 4, 4, 4, 4, 4};
+
+static const struct SpriteFrameImage sPicTable_BlueApricornTree[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
+    overworld_frame(gObjectEventPic_BlueApricornTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_BlueApricornTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_BlueApricornTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_BlueApricornTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_BlueApricornTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_BlueApricornTree, 2, 4, 5),
+};
+
+const u8 gBerryTreePaletteSlotTable_BlueApricorn[] = {3, 4, 4, 4, 4, 4, 4};
+
+static const struct SpriteFrameImage sPicTable_GreenApricornTree[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
+    overworld_frame(gObjectEventPic_GreenApricornTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_GreenApricornTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_GreenApricornTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_GreenApricornTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_GreenApricornTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_GreenApricornTree, 2, 4, 5),
+};
+
+const u8 gBerryTreePaletteSlotTable_GreenApricorn[] = {3, 4, 4, 4, 4, 4, 4};
+
+static const struct SpriteFrameImage sPicTable_PinkApricornTree[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
+    overworld_frame(gObjectEventPic_PinkApricornTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_PinkApricornTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_PinkApricornTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_PinkApricornTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_PinkApricornTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_PinkApricornTree, 2, 4, 5),
+};
+
+const u8 gBerryTreePaletteSlotTable_PinkApricorn[] = {3, 4, 4, 4, 4, 4, 4};
+
+static const struct SpriteFrameImage sPicTable_RedApricornTree[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
+    overworld_frame(gObjectEventPic_RedApricornTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_RedApricornTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_RedApricornTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_RedApricornTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_RedApricornTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_RedApricornTree, 2, 4, 5),
+};
+
+const u8 gBerryTreePaletteSlotTable_RedApricorn[] = {3, 4, 4, 4, 4, 4, 4};
+
+static const struct SpriteFrameImage sPicTable_WhiteApricornTree[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
+    overworld_frame(gObjectEventPic_WhiteApricornTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_WhiteApricornTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_WhiteApricornTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_WhiteApricornTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_WhiteApricornTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_WhiteApricornTree, 2, 4, 5),
+};
+
+const u8 gBerryTreePaletteSlotTable_WhiteApricorn[] = {3, 4, 4, 4, 4, 4, 4};
+
+static const struct SpriteFrameImage sPicTable_YellowApricornTree[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
+    overworld_frame(gObjectEventPic_YellowApricornTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_YellowApricornTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_YellowApricornTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_YellowApricornTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_YellowApricornTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_YellowApricornTree, 2, 4, 5),
+};
+
+const u8 gBerryTreePaletteSlotTable_YellowApricorn[] = {3, 4, 4, 4, 4, 4, 4};
+
+static const struct SpriteFrameImage sPicTable_BrownApricornTree[] = {
+    overworld_frame(gObjectEventPic_BerryTreeDirtPile, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 0),
+    overworld_frame(gObjectEventPic_BerryTreeSprout, 2, 2, 1),
+    overworld_frame(gObjectEventPic_BrownApricornTree, 2, 4, 0),
+    overworld_frame(gObjectEventPic_BrownApricornTree, 2, 4, 1),
+    overworld_frame(gObjectEventPic_BrownApricornTree, 2, 4, 2),
+    overworld_frame(gObjectEventPic_BrownApricornTree, 2, 4, 3),
+    overworld_frame(gObjectEventPic_BrownApricornTree, 2, 4, 4),
+    overworld_frame(gObjectEventPic_BrownApricornTree, 2, 4, 5),
+};
+
+const u8 gBerryTreePaletteSlotTable_BrownApricorn[] = {3, 4, 4, 4, 4, 4, 4};
+
+// end apricorns
 
 const u8 gDeadBerryTreeObjectEventGraphicsIdTable[] = {OBJ_EVENT_GFX_BERRY_TREE_EARLY_STAGES, OBJ_EVENT_GFX_BERRY_TREE_EARLY_STAGES, OBJ_EVENT_GFX_BERRY_TREE_EARLY_STAGES, OBJ_EVENT_GFX_BERRY_TREE_EARLY_STAGES, OBJ_EVENT_GFX_BERRY_TREE_EARLY_STAGES, OBJ_EVENT_GFX_BERRY_TREE_EARLY_STAGES, OBJ_EVENT_GFX_BERRY_TREE_EARLY_STAGES};
 
@@ -782,6 +896,16 @@ const struct SpriteFrameImage *const gBerryTreePicTablePointers[] = {
     [ITEM_CALCIE_BERRY - FIRST_BERRY_INDEX]           = sPicTable_CalcieBerryTree,
     [ITEM_ZINKIE_BERRY - FIRST_BERRY_INDEX]           = sPicTable_ZinkieBerryTree,
     [ITEM_CARBO_BERRY - FIRST_BERRY_INDEX]            = sPicTable_ProtieBerryTree,
+
+    // APRICORNS
+    [ITEM_BLACK_APRICORN - FIRST_BERRY_INDEX]         = sPicTable_TamatoBerryTree,
+    [ITEM_BLUE_APRICORN - FIRST_BERRY_INDEX]          = sPicTable_TamatoBerryTree,
+    [ITEM_GREEN_APRICORN - FIRST_BERRY_INDEX]         = sPicTable_TamatoBerryTree,
+    [ITEM_PINK_APRICORN - FIRST_BERRY_INDEX]          = sPicTable_TamatoBerryTree,
+    [ITEM_RED_APRICORN - FIRST_BERRY_INDEX]           = sPicTable_TamatoBerryTree,
+    [ITEM_WHITE_APRICORN - FIRST_BERRY_INDEX]         = sPicTable_TamatoBerryTree,
+    [ITEM_YELLOW_APRICORN - FIRST_BERRY_INDEX]        = sPicTable_TamatoBerryTree,
+    [ITEM_BROWN_APRICORN - FIRST_BERRY_INDEX]         = sPicTable_TamatoBerryTree,
 };
 
 const u8 *const gBerryTreePaletteSlotTablePointers[] = {
@@ -862,4 +986,14 @@ const u8 *const gBerryTreePaletteSlotTablePointers[] = {
     [ITEM_CALCIE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Calcie,
     [ITEM_ZINKIE_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Zinkie,
     [ITEM_CARBO_BERRY - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Protie,
+
+    // APRICORNS
+    [ITEM_BLACK_APRICORN - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato,
+    [ITEM_BLUE_APRICORN - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato,
+    [ITEM_GREEN_APRICORN - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato,
+    [ITEM_PINK_APRICORN - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato,
+    [ITEM_RED_APRICORN - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato,
+    [ITEM_WHITE_APRICORN - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato,
+    [ITEM_YELLOW_APRICORN - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato,
+    [ITEM_BROWN_APRICORN - FIRST_BERRY_INDEX] = gBerryTreePaletteSlotTable_Tamato,
 };

@@ -3450,7 +3450,7 @@ const struct Item gItemsInfo[] =
             "A red apricorn.\n"
             "It assails your\n"
             "nostrils."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_RedApricorn,
@@ -3465,7 +3465,7 @@ const struct Item gItemsInfo[] =
             "A blue apricorn.\n"
             "It smells a bit\n"
             "like grass."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_BlueApricorn,
@@ -3480,7 +3480,7 @@ const struct Item gItemsInfo[] =
             "A yellow apricorn.\n"
             "It has an invigor-\n"
             "ating scent."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_YellowApricorn,
@@ -3495,7 +3495,7 @@ const struct Item gItemsInfo[] =
             "A green apricorn.\n"
             "It has a strange,\n"
             "aromatic scent."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_GreenApricorn,
@@ -3510,7 +3510,7 @@ const struct Item gItemsInfo[] =
             "A pink apricorn.\n"
             "It has a nice,\n"
             "sweet scent."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_PinkApricorn,
@@ -3525,7 +3525,7 @@ const struct Item gItemsInfo[] =
             "A white apricorn.\n"
             "It doesn't smell\n"
             "like anything."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_WhiteApricorn,
@@ -3540,13 +3540,29 @@ const struct Item gItemsInfo[] =
             "A black apricorn.\n"
             "It has an inde-\n"
             "scribable scent."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_BlackApricorn,
         .iconPalette = gItemIconPalette_BlackApricorn,
     },
 
+    [ITEM_BROWN_APRICORN] =
+    {
+        .name = HANDLE_EXPANDED_ITEM_NAME("BrownApricorn", "Brown Apricorn"),
+        .pluralName = _("Brown Apricorns"),
+        .price = (I_PRICE == GEN_4) ? 0 : ((I_PRICE >= GEN_5 && I_PRICE <= GEN_7) ? 20 : 200),
+        .description = COMPOUND_STRING(
+            "A brown apricorn.\n"
+            "It's low quality,\n"
+            "but high quantity."),
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_RedApricorn, //need new icon
+        .iconPalette = gItemIconPalette_RedApricorn, //need new pallete
+    },
+    
     [ITEM_WISHING_PIECE] =
     {
         .name = HANDLE_EXPANDED_ITEM_NAME("WishingPiece", "Wishing Piece"),

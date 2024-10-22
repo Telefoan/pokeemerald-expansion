@@ -293,6 +293,17 @@ const u32 gObjectEventPic_EyerohBerryTree[] = INCBIN_U32("graphics/object_events
 const u32 gObjectEventPic_CalcieBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/calcie.4bpp");
 const u32 gObjectEventPic_ZinkieBerryTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/zinkie.4bpp");
 
+//APRICORNS
+const u32 gObjectEventPic_BlackApricornTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/tamato.4bpp");
+const u32 gObjectEventPic_BlueApricornTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/tamato.4bpp");
+const u32 gObjectEventPic_GreenApricornTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/tamato.4bpp");
+const u32 gObjectEventPic_PinkApricornTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/tamato.4bpp");
+const u32 gObjectEventPic_RedApricornTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/tamato.4bpp");
+const u32 gObjectEventPic_WhiteApricornTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/tamato.4bpp");
+const u32 gObjectEventPic_YellowApricornTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/tamato.4bpp");
+const u32 gObjectEventPic_BrownApricornTree[] = INCBIN_U32("graphics/object_events/pics/berry_trees/tamato.4bpp");
+//END APRICORNS
+
 const u32 gFieldEffectObjectPic_SurfBlob[] = INCBIN_U32("graphics/field_effects/pics/surf_blob.4bpp");
 const u32 gObjectEventPic_QuintyPlump[] = INCBIN_U32("graphics/object_events/pics/people/quinty_plump.4bpp");
 const u16 gObjectEventPal_QuintyPlump[] = INCBIN_U16("graphics/object_events/palettes/quinty_plump.gbapal");
