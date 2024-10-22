@@ -1965,7 +1965,7 @@ extern const u32 gBerryPalette_Kee[];
 extern const u32 gBerryPalette_Maranga[];
 
 // NEW BERRY PALETTES
-extern const u32 gBerryPalette_Hhipup[];
+extern const u32 gBerryPalette_Hipup[];
 extern const u32 gBerryPalette_Pipup[];
 extern const u32 gBerryPalette_Protie[];
 extern const u32 gBerryPalette_Eyeroh[];
