@@ -1469,6 +1469,23 @@ extern const u32 gItemIcon_KeeBerry[];
 extern const u32 gItemIconPalette_KeeBerry[];
 extern const u32 gItemIcon_MarangaBerry[];
 extern const u32 gItemIconPalette_MarangaBerry[];
+
+//new berries
+extern const u32 gItemIcon_HipupBerry[];
+extern const u32 gItemIconPalette_HipupBerry[];
+extern const u32 gItemIcon_PipupBerry[];
+extern const u32 gItemIconPalette_PipupBerry[];
+extern const u32 gItemIcon_ProtieBerry[];
+extern const u32 gItemIconPalette_ProtieBerry[];
+extern const u32 gItemIcon_EyerohBerry[];
+extern const u32 gItemIconPalette_EyerohBerry[];
+extern const u32 gItemIcon_CalcieBerry[];
+extern const u32 gItemIconPalette_CalcieBerry[];
+extern const u32 gItemIcon_ZinkieBerry[];
+extern const u32 gItemIconPalette_ZinkieBerry[];
+extern const u32 gItemIcon_CarboBerry[];
+extern const u32 gItemIconPalette_CarboBerry[];
+
 // TMs/HMs
 extern const u32 gItemIcon_TM[];
 extern const u32 gItemIcon_HM[];
@@ -1869,6 +1886,16 @@ extern const u32 gBerryPic_Jaboca[];
 extern const u32 gBerryPic_Rowap[];
 extern const u32 gBerryPic_Kee[];
 extern const u32 gBerryPic_Maranga[];
+
+// NEW BERRY PICS
+extern const u32 gBerryPic_Hipup[];
+extern const u32 gBerryPic_Pipup[];
+extern const u32 gBerryPic_Protie[];
+extern const u32 gBerryPic_Eyeroh[];
+extern const u32 gBerryPic_Calcie[];
+extern const u32 gBerryPic_Zinkie[];
+extern const u32 gBerryPic_Carbo[];
+
 extern const u32 gBerryPalette_Cheri[];
 extern const u32 gBerryPalette_Chesto[];
 extern const u32 gBerryPalette_Pecha[];
@@ -1936,6 +1963,15 @@ extern const u32 gBerryPalette_Jaboca[];
 extern const u32 gBerryPalette_Rowap[];
 extern const u32 gBerryPalette_Kee[];
 extern const u32 gBerryPalette_Maranga[];
+
+// NEW BERRY PALETTES
+extern const u32 gBerryPalette_Hipup[];
+extern const u32 gBerryPalette_Pipup[];
+extern const u32 gBerryPalette_Protie[];
+extern const u32 gBerryPalette_Eyeroh[];
+extern const u32 gBerryPalette_Calcie[];
+extern const u32 gBerryPalette_Zinkie[];
+extern const u32 gBerryPalette_Carbo[];
 
 //PokéNav
 extern const u16 gPokenavCondition_Pal[];

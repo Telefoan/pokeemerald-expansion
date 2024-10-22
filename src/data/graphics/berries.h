@@ -74,6 +74,15 @@ const u32 gBerryPic_Rowap[] = INCBIN_U32("graphics/berries/rowap.4bpp.lz");
 const u32 gBerryPic_Kee[] = INCBIN_U32("graphics/berries/kee.4bpp.lz");
 const u32 gBerryPic_Maranga[] = INCBIN_U32("graphics/berries/maranga.4bpp.lz");
 
+//new berry pics
+const u32 gBerryPic_Hipup[] = INCBIN_U32("graphics/berries/hipup.4bpp.lz");
+const u32 gBerryPic_Pipup[] = INCBIN_U32("graphics/berries/pipup.4bpp.lz");
+const u32 gBerryPic_Protie[] = INCBIN_U32("graphics/berries/protie.4bpp.lz");
+const u32 gBerryPic_Eyeroh[] = INCBIN_U32("graphics/berries/eyeroh.4bpp.lz");
+const u32 gBerryPic_Calcie[] = INCBIN_U32("graphics/berries/calcie.4bpp.lz");
+const u32 gBerryPic_Zinkie[] = INCBIN_U32("graphics/berries/zinkie.4bpp.lz");
+const u32 gBerryPic_Carbo[] = INCBIN_U32("graphics/berries/carbo.4bpp.lz");
+
 const u32 gBerryPalette_Cheri[] = INCBIN_U32("graphics/berries/cheri.gbapal.lz");
 const u32 gBerryPalette_Chesto[] = INCBIN_U32("graphics/berries/chesto.gbapal.lz");
 const u32 gBerryPalette_Pecha[] = INCBIN_U32("graphics/berries/pecha.gbapal.lz");
@@ -141,3 +150,12 @@ const u32 gBerryPalette_Jaboca[] = INCBIN_U32("graphics/berries/jaboca.gbapal.lz
 const u32 gBerryPalette_Rowap[] = INCBIN_U32("graphics/berries/rowap.gbapal.lz");
 const u32 gBerryPalette_Kee[] = INCBIN_U32("graphics/berries/kee.gbapal.lz");
 const u32 gBerryPalette_Maranga[] = INCBIN_U32("graphics/berries/maranga.gbapal.lz");
+
+//new berry palettes
+const u32 gBerryPalette_Hipup[] = INCBIN_U32("graphics/berries/hipup.gbapal.lz");
+const u32 gBerryPalette_Pipup[] = INCBIN_U32("graphics/berries/pipup.gbapal.lz");
+const u32 gBerryPalette_Protie[] = INCBIN_U32("graphics/berries/protie.gbapal.lz");
+const u32 gBerryPalette_Eyeroh[] = INCBIN_U32("graphics/berries/eyeroh.gbapal.lz");
+const u32 gBerryPalette_Calcie[] = INCBIN_U32("graphics/berries/calcie.gbapal.lz");
+const u32 gBerryPalette_Zinkie[] = INCBIN_U32("graphics/berries/zinkie.gbapal.lz");
+const u32 gBerryPalette_Carbo[] = INCBIN_U32("graphics/berries/carbo.gbapal.lz");
