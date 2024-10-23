@@ -1783,7 +1783,7 @@ const struct Berry gBerries[] =
 
      [ITEM_BLACK_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Black Apricorn"),
+        .name = _("Black"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_BLUE,
         .size = 0,
@@ -1806,7 +1806,7 @@ const struct Berry gBerries[] =
 
     [ITEM_BLUE_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Blue Apricorn"),
+        .name = _("Blue"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_BLUE,
         .size = 0,
@@ -1829,7 +1829,7 @@ const struct Berry gBerries[] =
 
     [ITEM_GREEN_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Green Apricorn"),
+        .name = _("Green"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_GREEN,
         .size = 0,
@@ -1852,7 +1852,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PINK_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Pink Apricorn"),
+        .name = _("Pink"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_PINK,
         .size = 0,
@@ -1875,7 +1875,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RED_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Red Apricorn"),
+        .name = _("Red"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_RED,
         .size = 0,
@@ -1898,7 +1898,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WHITE_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("White Apricorn"),
+        .name = _("White"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_YELLOW,
         .size = 0,
@@ -1921,7 +1921,7 @@ const struct Berry gBerries[] =
 
     [ITEM_YELLOW_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Yellow Apricorn"),
+        .name = _("Yellow"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_YELLOW,
         .size = 0,
@@ -1944,7 +1944,7 @@ const struct Berry gBerries[] =
 
     [ITEM_BROWN_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Brown Apricorn"), 
+        .name = _("Brown"), 
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_RED,
         .size = 0,
