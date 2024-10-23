@@ -1783,7 +1783,7 @@ const struct Berry gBerries[] =
 
      [ITEM_BLACK_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Black Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .name = _("Black Apricorn"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_BLUE,
         .size = 0,
@@ -1806,7 +1806,7 @@ const struct Berry gBerries[] =
 
     [ITEM_BLUE_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Blue Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .name = _("Blue Apricorn"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_BLUE,
         .size = 0,
@@ -1829,7 +1829,7 @@ const struct Berry gBerries[] =
 
     [ITEM_GREEN_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Green Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .name = _("Green Apricorn"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_GREEN,
         .size = 0,
@@ -1852,7 +1852,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PINK_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Pink Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .name = _("Pink Apricorn"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_PINK,
         .size = 0,
@@ -1875,7 +1875,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RED_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Red Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .name = _("Red Apricorn"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_RED,
         .size = 0,
@@ -1898,7 +1898,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WHITE_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("White Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .name = _("White Apricorn"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_YELLOW,
         .size = 0,
@@ -1921,7 +1921,7 @@ const struct Berry gBerries[] =
 
     [ITEM_YELLOW_APRICORN - FIRST_BERRY_INDEX] =
     {
-        .name = _("Yellow Apricorn"), //hopefully we can append "apricorn" to these >.<;;
+        .name = _("Yellow Apricorn"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .color = BERRY_COLOR_YELLOW,
         .size = 0,
