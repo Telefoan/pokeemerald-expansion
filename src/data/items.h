@@ -10406,6 +10406,133 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_EnigmaBerry,
         .iconPalette = gItemIconPalette_EnigmaBerry,
     },
+// new berries
+    [ITEM_HIPUP_BERRY] =
+    {
+        .name = _("Hipup Berry"),
+        .pluralName = _("Hipup Berries"),
+        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .description = COMPOUND_STRING(
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases CONSTITUTION."),
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_HipupBerry,
+        .flingPower = 10,
+        .iconPic = gItemIcon_HipupBerry,
+        .iconPalette = gItemIconPalette_HipupBerry,
+    },
+
+    [ITEM_PIPUP_BERRY] =
+    {
+        .name = _("Pipup Berry"),
+        .pluralName = _("Pipup Berries"),
+        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .description = COMPOUND_STRING(
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases LONGEVITY."),
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_PipupBerry,
+        .flingPower = 10,
+        .iconPic = gItemIcon_PipupBerry,
+        .iconPalette = gItemIconPalette_PipupBerry,
+    },
+
+    [ITEM_PROTIE_BERRY] =
+    {
+        .name = _("Protie Berry"),
+        .pluralName = _("Protie Berries"),
+        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .description = COMPOUND_STRING(
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases STRENGTH."),
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_ProtieBerry,
+        .flingPower = 10,
+        .iconPic = gItemIcon_ProtieBerry,
+        .iconPalette = gItemIconPalette_ProtieBerry,
+    },
+
+    [ITEM_EYEROH_BERRY] =
+    {
+        .name = _("Eyeroh Berry"),
+        .pluralName = _("Eyeroh Berries"),
+        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .description = COMPOUND_STRING(
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases DEFENSE."),
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_EyerohBerry,
+        .flingPower = 10,
+        .iconPic = gItemIcon_EyerohBerry,
+        .iconPalette = gItemIconPalette_EyerohBerry,
+    },
+
+    [ITEM_CALCIE_BERRY] =
+    {
+        .name = _("Calcie Berry"),
+        .pluralName = _("Calcie Berries"),
+        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .description = COMPOUND_STRING(
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases INTELLIGENCE."),
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_CalcieBerry,
+        .flingPower = 10,
+        .iconPic = gItemIcon_CalcieBerry,
+        .iconPalette = gItemIconPalette_CalcieBerry,
+    },
+
+    [ITEM_ZINKIE_BERRY] =
+    {
+        .name = _("Zinkie Berry"),
+        .pluralName = _("Zinkie Berries"),
+        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .description = COMPOUND_STRING(
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases WISDOM."),
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_ZinkieBerry,
+        .flingPower = 10,
+        .iconPic = gItemIcon_ZinkieBerry,
+        .iconPalette = gItemIconPalette_ZinkieBerry,
+    },
+
+    [ITEM_CARBO_BERRY] =
+    {
+        .name = _("Carbo Berry"),
+        .pluralName = _("Carbo Berries"),
+        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .description = COMPOUND_STRING(
+            "A wild berry,\n"
+            "extremely nutritious,\n"
+            "increases AGILITY."),
+        .pocket = POCKET_BERRIES,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_CarboBerry,
+        .flingPower = 10,
+        .iconPic = gItemIcon_CarboBerry,
+        .iconPalette = gItemIconPalette_CarboBerry,
+    },
+
 
 // TMs/HMs. They don't have a set flingPower, as that's handled by GetFlingPowerFromItemId.
 
