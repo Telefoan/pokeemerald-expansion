@@ -92,7 +92,14 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125"
+    "Underwater_Route125",
+    "BeachVillage",
+    "beachtownv2",
+    "Village_NW",
+    "Village_NC",
+    "Village_NE",
+    "Village_S",
+    "Village_Beach"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

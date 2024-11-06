@@ -1074,3 +1074,17 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/BeachVillage/scripts.inc"
+
+	.include "data/maps/beachtownv2/scripts.inc"
+
+	.include "data/maps/Village_NW/scripts.inc"
+
+	.include "data/maps/Village_NC/scripts.inc"
+
+	.include "data/maps/Village_NE/scripts.inc"
+
+	.include "data/maps/Village_S/scripts.inc"
+
+	.include "data/maps/Village_Beach/scripts.inc"
