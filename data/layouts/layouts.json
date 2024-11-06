@@ -4410,7 +4410,7 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
-    },    
+    },
     {
       "id": "LAYOUT_VILLAGE_NW",
       "name": "Village_NW_Layout",
@@ -4460,6 +4460,16 @@
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/Village_Beach/border.bin",
       "blockdata_filepath": "data/layouts/Village_Beach/map.bin"
+    },
+    {
+      "id": "LAYOUT_BEACH_VILLAGE",
+      "name": "BeachVillage_Layout",
+      "width": 45,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BeachTown",
+      "border_filepath": "data/layouts/BeachVillage/border.bin",
+      "blockdata_filepath": "data/layouts/BeachVillage/map.bin"
     }
   ]
 }

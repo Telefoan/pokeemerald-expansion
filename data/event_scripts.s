@@ -1084,3 +1084,4 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Village_S/scripts.inc"
 
 	.include "data/maps/Village_Beach/scripts.inc"
+	.include "data/maps/BeachVillage/scripts.inc"
