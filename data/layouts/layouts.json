@@ -4472,14 +4472,14 @@
       "blockdata_filepath": "data/layouts/BeachVillage/map.bin"
     },
     {
-      "id": "LAYOUT_FOREST",
-      "name": "Forest_Layout",
+      "id": "LAYOUT_FOREST_ENTRANCE",
+      "name": "ForestEntrance_Layout",
       "width": 30,
       "height": 30,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fortree",
-      "border_filepath": "data/layouts/Forest/border.bin",
-      "blockdata_filepath": "data/layouts/Forest/map.bin"
+      "border_filepath": "data/layouts/ForestEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/ForestEntrance/map.bin"
     }
   ]
 }
