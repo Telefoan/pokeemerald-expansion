@@ -216,3 +216,6 @@ const u16 gMetatileAttributes_beach[] = INCBIN_U16("data/tilesets/secondary/beac
 
 const u16 gMetatiles_copypalette[] = INCBIN_U16("data/tilesets/primary/copypalette/metatiles.bin");
 const u16 gMetatileAttributes_copypalette[] = INCBIN_U16("data/tilesets/primary/copypalette/metatile_attributes.bin");
+
+const u16 gMetatiles_Forest[] = INCBIN_U16("data/tilesets/secondary/forest/metatiles.bin");
+const u16 gMetatileAttributes_Forest[] = INCBIN_U16("data/tilesets/secondary/forest/metatile_attributes.bin");

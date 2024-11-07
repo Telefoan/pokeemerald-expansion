@@ -205,6 +205,7 @@
 #define METATILE_Fortree_WoodBridge1_Top                   0x297
 
 // gTileset_General
+#define METATILE_General_Berry_Tree_Soil       0x121
 #define METATILE_General_BlueCaveIndent        0x1B0
 #define METATILE_General_BlueCaveOpen          0x1B1
 #define METATILE_General_CalmWater             0x170
@@ -232,7 +233,6 @@
 #define METATILE_General_RockWall_SandBase     0x091
 #define METATILE_General_RoughDeepWater        0x14F
 #define METATILE_General_RoughWater            0x14E
-#define METATILE_General_SandPit_Center        0x121
 #define METATILE_General_SecretBase_TreeLeft   0x026
 #define METATILE_General_SecretBase_TreeRight  0x027
 #define METATILE_General_SecretBase_VineLeft   0x036
