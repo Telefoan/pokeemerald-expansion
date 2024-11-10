@@ -24,14 +24,14 @@
       "direction": "up"
     },
     {
-      "map": "MAP_VILLAGE_NE",
-      "offset": 25,
-      "direction": "up"
-    },
-    {
       "map": "MAP_VILLAGE_BEACH",
       "offset": 0,
       "direction": "down"
+    },
+    {
+      "map": "MAP_VILLAGE_NE",
+      "offset": 20,
+      "direction": "up"
     }
   ],
   "object_events": [

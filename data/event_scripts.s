@@ -1087,3 +1087,15 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/BeachVillage/scripts.inc"
 
 	.include "data/maps/Forest/scripts.inc"
+
+	.include "data/maps/PorytilesTutorialMap/scripts.inc"
+
+	.include "data/maps/BabyWoods/scripts.inc"
+
+	.include "data/maps/BabyWoods1/scripts.inc"
+
+	.include "data/maps/BabyWoods2/scripts.inc"
+
+	.include "data/maps/BabyWoods3/scripts.inc"
+
+	.include "data/maps/VillageFarm/scripts.inc"

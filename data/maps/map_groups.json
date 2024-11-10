@@ -33,7 +33,8 @@
     "gMapGroup_IndoorRoute113",
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
-    "gMapGroup_IndoorRoute124"
+    "gMapGroup_IndoorRoute124",
+    "gMapGroup_ForestDungeon"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -99,7 +100,9 @@
     "Village_S",
     "Village_Beach",
     "BeachVillage",
-    "ForestEntrance"
+    "ForestEntrance",
+    "PorytilesTutorialMap",
+    "VillageFarm"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -627,5 +630,11 @@
   ],
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
+  ],
+  "gMapGroup_ForestDungeon": [
+    "BabyWoods",
+    "BabyWoods1",
+    "BabyWoods2",
+    "BabyWoods3"
   ]
 }

@@ -4434,7 +4434,7 @@
     {
       "id": "LAYOUT_VILLAGE_NE",
       "name": "Village_NE_Layout",
-      "width": 20,
+      "width": 25,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_BeachTown",
@@ -4474,12 +4474,72 @@
     {
       "id": "LAYOUT_FOREST_ENTRANCE",
       "name": "ForestEntrance_Layout",
-      "width": 30,
-      "height": 30,
+      "width": 20,
+      "height": 20,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Fortree",
+      "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/ForestEntrance/border.bin",
       "blockdata_filepath": "data/layouts/ForestEntrance/map.bin"
+    },
+    {
+      "id": "LAYOUT_PORYTILES_TUTORIAL_MAP",
+      "name": "PorytilesTutorialMap_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_PorytilesPrimaryTutorial",
+      "secondary_tileset": "gTileset_BeachTown",
+      "border_filepath": "data/layouts/PorytilesTutorialMap/border.bin",
+      "blockdata_filepath": "data/layouts/PorytilesTutorialMap/map.bin"
+    },
+    {
+      "id": "LAYOUT_BABY_WOODS",
+      "name": "BabyWoods_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/BabyWoods/border.bin",
+      "blockdata_filepath": "data/layouts/BabyWoods/map.bin"
+    },
+    {
+      "id": "LAYOUT_BABY_WOODS1",
+      "name": "BabyWoods1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/BabyWoods1/border.bin",
+      "blockdata_filepath": "data/layouts/BabyWoods1/map.bin"
+    },
+    {
+      "id": "LAYOUT_BABY_WOODS2",
+      "name": "BabyWoods2_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/BabyWoods2/border.bin",
+      "blockdata_filepath": "data/layouts/BabyWoods2/map.bin"
+    },
+    {
+      "id": "LAYOUT_BABY_WOODS3",
+      "name": "BabyWoods3_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/BabyWoods3/border.bin",
+      "blockdata_filepath": "data/layouts/BabyWoods3/map.bin"
+    },
+    {
+      "id": "LAYOUT_VILLAGE_FARM",
+      "name": "VillageFarm_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BeachTown",
+      "border_filepath": "data/layouts/VillageFarm/border.bin",
+      "blockdata_filepath": "data/layouts/VillageFarm/map.bin"
     }
   ]
 }
