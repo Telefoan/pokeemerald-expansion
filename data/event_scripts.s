@@ -1086,8 +1086,6 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Village_Beach/scripts.inc"
 	.include "data/maps/BeachVillage/scripts.inc"
 
-	.include "data/maps/Forest/scripts.inc"
-
 	.include "data/maps/PorytilesTutorialMap/scripts.inc"
 
 	.include "data/maps/BabyWoods/scripts.inc"
