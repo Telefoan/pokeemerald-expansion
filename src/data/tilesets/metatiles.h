@@ -211,9 +211,6 @@ const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/
 const u16 gMetatiles_BeachTown[] = INCBIN_U16("data/tilesets/secondary/beach_town/metatiles.bin");
 const u16 gMetatileAttributes_BeachTown[] = INCBIN_U16("data/tilesets/secondary/beach_town/metatile_attributes.bin");
 
-const u16 gMetatiles_beach[] = INCBIN_U16("data/tilesets/secondary/beach/metatiles.bin");
-const u16 gMetatileAttributes_beach[] = INCBIN_U16("data/tilesets/secondary/beach/metatile_attributes.bin");
-
 const u16 gMetatiles_copypalette[] = INCBIN_U16("data/tilesets/primary/copypalette/metatiles.bin");
 const u16 gMetatileAttributes_copypalette[] = INCBIN_U16("data/tilesets/primary/copypalette/metatile_attributes.bin");
 
@@ -222,3 +219,6 @@ const u16 gMetatileAttributes_Forest[] = INCBIN_U16("data/tilesets/secondary/for
 
 const u16 gMetatiles_PorytilesPrimaryTutorial[] = INCBIN_U16("data/tilesets/primary/porytiles_primary_tutorial/metatiles.bin");
 const u16 gMetatileAttributes_PorytilesPrimaryTutorial[] = INCBIN_U16("data/tilesets/primary/porytiles_primary_tutorial/metatile_attributes.bin");
+
+const u16 gMetatiles_New_General[] = INCBIN_U16("data/tilesets/primary/new_general/metatiles.bin");
+const u16 gMetatileAttributes_New_General[] = INCBIN_U16("data/tilesets/primary/new_general/metatile_attributes.bin");

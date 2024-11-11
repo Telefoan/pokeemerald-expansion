@@ -4416,7 +4416,7 @@
       "name": "Village_NW_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/Village_NW/border.bin",
       "blockdata_filepath": "data/layouts/Village_NW/map.bin"
@@ -4426,7 +4426,7 @@
       "name": "Village_NC_Layout",
       "width": 5,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/Village_NC/border.bin",
       "blockdata_filepath": "data/layouts/Village_NC/map.bin"
@@ -4436,7 +4436,7 @@
       "name": "Village_NE_Layout",
       "width": 25,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/Village_NE/border.bin",
       "blockdata_filepath": "data/layouts/Village_NE/map.bin"
@@ -4446,7 +4446,7 @@
       "name": "Village_S_Layout",
       "width": 45,
       "height": 8,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/Village_S/border.bin",
       "blockdata_filepath": "data/layouts/Village_S/map.bin"
@@ -4456,7 +4456,7 @@
       "name": "Village_Beach_Layout",
       "width": 45,
       "height": 15,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/Village_Beach/border.bin",
       "blockdata_filepath": "data/layouts/Village_Beach/map.bin"
@@ -4466,7 +4466,7 @@
       "name": "BeachVillage_Layout",
       "width": 45,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/BeachVillage/border.bin",
       "blockdata_filepath": "data/layouts/BeachVillage/map.bin"
@@ -4476,7 +4476,7 @@
       "name": "ForestEntrance_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/ForestEntrance/border.bin",
       "blockdata_filepath": "data/layouts/ForestEntrance/map.bin"
@@ -4496,7 +4496,7 @@
       "name": "BabyWoods_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_Forest",
       "border_filepath": "data/layouts/BabyWoods/border.bin",
       "blockdata_filepath": "data/layouts/BabyWoods/map.bin"
@@ -4506,7 +4506,7 @@
       "name": "BabyWoods1_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_Forest",
       "border_filepath": "data/layouts/BabyWoods1/border.bin",
       "blockdata_filepath": "data/layouts/BabyWoods1/map.bin"
@@ -4516,7 +4516,7 @@
       "name": "BabyWoods2_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_Forest",
       "border_filepath": "data/layouts/BabyWoods2/border.bin",
       "blockdata_filepath": "data/layouts/BabyWoods2/map.bin"
@@ -4526,7 +4526,7 @@
       "name": "BabyWoods3_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_Forest",
       "border_filepath": "data/layouts/BabyWoods3/border.bin",
       "blockdata_filepath": "data/layouts/BabyWoods3/map.bin"
@@ -4536,7 +4536,7 @@
       "name": "VillageFarm_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_New_General",
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/VillageFarm/border.bin",
       "blockdata_filepath": "data/layouts/VillageFarm/map.bin"
