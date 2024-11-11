@@ -18,6 +18,7 @@ const struct Tileset gTileset_New_General =
     .metatiles = gMetatiles_New_General,
     .metatileAttributes = gMetatileAttributes_New_General,
     .callback = InitTilesetAnim_New_General,
+};
 
 const struct Tileset gTileset_Petalburg =
 {
