@@ -1,2 +1,2 @@
-NewMap1_MapScripts::
+ForestEntrance_MapScripts::
 	.byte 0
