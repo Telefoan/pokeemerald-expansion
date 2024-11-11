@@ -27,6 +27,11 @@
       "map": "MAP_FOREST_ENTRANCE",
       "offset": -7,
       "direction": "up"
+    },
+    {
+      "map": "MAP_FOREST_ENTRANCE1",
+      "offset": -7,
+      "direction": "up"
     }
   ],
   "object_events": [

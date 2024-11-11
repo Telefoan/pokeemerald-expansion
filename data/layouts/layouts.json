@@ -4471,17 +4471,7 @@
       "border_filepath": "data/layouts/BeachVillage/border.bin",
       "blockdata_filepath": "data/layouts/BeachVillage/map.bin"
     },
-    {
-      "id": "LAYOUT_FOREST_ENTRANCE",
-      "name": "ForestEntrance_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_New_General",
-      "secondary_tileset": "gTileset_BeachTown",
-      "border_filepath": "data/layouts/ForestEntrance/border.bin",
-      "blockdata_filepath": "data/layouts/ForestEntrance/map.bin"
-    },
-    {
+        {
       "id": "LAYOUT_PORYTILES_TUTORIAL_MAP",
       "name": "PorytilesTutorialMap_Layout",
       "width": 20,
@@ -4540,6 +4530,16 @@
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/VillageFarm/border.bin",
       "blockdata_filepath": "data/layouts/VillageFarm/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOREST_ENTRANCE1",
+      "name": "ForestEntrance1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_New_General",
+      "secondary_tileset": "gTileset_BeachTown",
+      "border_filepath": "data/layouts/ForestEntrance1/border.bin",
+      "blockdata_filepath": "data/layouts/ForestEntrance1/map.bin"
     }
   ]
 }

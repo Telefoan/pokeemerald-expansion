@@ -22,6 +22,11 @@
       "map": "MAP_VILLAGE_NE",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_FOREST_ENTRANCE1",
+      "offset": 13,
+      "direction": "up"
     }
   ],
   "object_events": [

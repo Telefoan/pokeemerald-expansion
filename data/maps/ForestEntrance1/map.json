@@ -1,9 +1,9 @@
 {
-  "id": "MAP_FOREST_ENTRANCE",
-  "name": "ForestEntrance",
-  "layout": "LAYOUT_FOREST_ENTRANCE",
+  "id": "MAP_FOREST_ENTRANCE1",
+  "name": "ForestEntrance1",
+  "layout": "LAYOUT_FOREST_ENTRANCE1",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_FOREST_DUNGEON",
+  "region_map_section": "MAPSEC_BEACH_VILLAGE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",
@@ -14,13 +14,13 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_VILLAGE_NE",
-      "offset": 7,
+      "map": "MAP_VILLAGE_NW",
+      "offset": -13,
       "direction": "down"
     },
     {
-      "map": "MAP_VILLAGE_NW",
-      "offset": -13,
+      "map": "MAP_VILLAGE_NE",
+      "offset": 7,
       "direction": "down"
     }
   ],
