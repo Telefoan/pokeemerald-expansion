@@ -1,6 +1,8 @@
 {
   "group_order": [
     "gMapGroup_TownsAndRoutes",
+    "gMapGroup_ForestDungeon",
+    "gMapGroup_OldTownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
     "gMapGroup_IndoorDewford",
@@ -33,10 +35,25 @@
     "gMapGroup_IndoorRoute113",
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
-    "gMapGroup_IndoorRoute124",
-    "gMapGroup_ForestDungeon"
+    "gMapGroup_IndoorRoute124"    
   ],
   "gMapGroup_TownsAndRoutes": [
+    "Village_NW",
+    "Village_NC",
+    "Village_NE",
+    "Village_S",
+    "Village_Beach",
+    "BeachVillage",
+    "ForestEntrance",
+    "VillageFarm"
+  ],
+  "gMapGroup_ForestDungeon": [
+    "BabyWoods",
+    "BabyWoods1",
+    "BabyWoods2",
+    "BabyWoods3"
+  ],
+  "gMapGroup_OldTownsAndRoutes": [
     "PetalburgCity",
     "SlateportCity",
     "MauvilleCity",
@@ -94,15 +111,7 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125",
-    "Village_NW",
-    "Village_NC",
-    "Village_NE",
-    "Village_S",
-    "Village_Beach",
-    "BeachVillage",
-    "ForestEntrance",
-    "PorytilesTutorialMap",
-    "VillageFarm"
+    "PorytilesTutorialMap"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -630,11 +639,5 @@
   ],
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
-  ],
-  "gMapGroup_ForestDungeon": [
-    "BabyWoods",
-    "BabyWoods1",
-    "BabyWoods2",
-    "BabyWoods3"
   ]
-}
+ }
