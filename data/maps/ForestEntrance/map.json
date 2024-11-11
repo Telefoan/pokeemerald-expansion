@@ -14,13 +14,13 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_BEACH_VILLAGE",
-      "offset": -13,
+      "map": "MAP_VILLAGE_NE",
+      "offset": 7,
       "direction": "down"
     },
     {
-      "map": "MAP_VILLAGE_NE",
-      "offset": 7,
+      "map": "MAP_VILLAGE_NW",
+      "offset": -13,
       "direction": "down"
     }
   ],
