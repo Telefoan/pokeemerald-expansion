@@ -837,17 +837,6 @@ const struct Tileset gTileset_BeachTown =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_beach =
-{
-    .isCompressed = TRUE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_beach,
-    .palettes = gTilesetPalettes_beach,
-    .metatiles = gMetatiles_beach,
-    .metatileAttributes = gMetatileAttributes_beach,
-    .callback = NULL,
-};
-
 const struct Tileset gTileset_copypalette =
 {
     .isCompressed = TRUE,
