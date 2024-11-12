@@ -4540,6 +4540,26 @@
       "secondary_tileset": "gTileset_BeachTown",
       "border_filepath": "data/layouts/ForestEntrance1/border.bin",
       "blockdata_filepath": "data/layouts/ForestEntrance1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKY_WOODS1",
+      "name": "RockyWoods1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_New_General",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/RockyWoods1/border.bin",
+      "blockdata_filepath": "data/layouts/RockyWoods1/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEEP_DARK_WOODS1",
+      "name": "DeepDarkWoods1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_New_General",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/DeepDarkWoods1/border.bin",
+      "blockdata_filepath": "data/layouts/DeepDarkWoods1/map.bin"
     }
   ]
 }

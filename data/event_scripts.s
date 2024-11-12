@@ -1099,3 +1099,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/VillageFarm/scripts.inc"
 
 	.include "data/maps/ForestEntrance1/scripts.inc"
+
+	.include "data/maps/RockyWoods1/scripts.inc"
+
+	.include "data/maps/DeepDarkWoods1/scripts.inc"
