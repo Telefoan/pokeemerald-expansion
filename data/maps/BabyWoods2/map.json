@@ -17,6 +17,16 @@
       "map": "MAP_BABY_WOODS1",
       "offset": 4,
       "direction": "right"
+    },
+    {
+      "map": "MAP_ROCKY_WOODS1",
+      "offset": -6,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_DEEP_DARK_WOODS1",
+      "offset": 6,
+      "direction": "up"
     }
   ],
   "object_events": [
