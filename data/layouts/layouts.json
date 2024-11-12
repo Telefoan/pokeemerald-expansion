@@ -4471,7 +4471,7 @@
       "border_filepath": "data/layouts/BeachVillage/border.bin",
       "blockdata_filepath": "data/layouts/BeachVillage/map.bin"
     },
-        {
+    {
       "id": "LAYOUT_PORYTILES_TUTORIAL_MAP",
       "name": "PorytilesTutorialMap_Layout",
       "width": 20,

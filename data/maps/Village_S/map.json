@@ -47,7 +47,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_VILLAGE_S_STATE",
+      "var_value": "0",
+      "script": "Village_S_EventScript_StartGame"
+    }
   ],
   "bg_events": [
 
