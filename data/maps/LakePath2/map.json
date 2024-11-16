@@ -1,7 +1,7 @@
 {
-  "id": "MAP_BABY_WOODS3",
-  "name": "BabyWoods3",
-  "layout": "LAYOUT_BABY_WOODS3",
+  "id": "MAP_LAKE_PATH2",
+  "name": "LakePath2",
+  "layout": "LAYOUT_LAKE_PATH2",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_FOREST_DUNGEON",
   "requires_flash": false,
@@ -14,19 +14,9 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_BABY_WOODS1",
-      "offset": -6,
-      "direction": "down"
-    },
-    {
       "map": "MAP_LAKE_PATH",
-      "offset": 3,
-      "direction": "right"
-    },
-    {
-      "map": "MAP_BIG_TREE_PATH1",
-      "offset": 0,
-      "direction": "up"
+      "offset": -9,
+      "direction": "left"
     }
   ],
   "object_events": [

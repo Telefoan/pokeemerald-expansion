@@ -1103,3 +1103,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/RockyWoods1/scripts.inc"
 
 	.include "data/maps/DeepDarkWoods1/scripts.inc"
+
+	.include "data/maps/LakePath/scripts.inc"
+
+	.include "data/maps/LakePath2/scripts.inc"
+
+	.include "data/maps/BigTreePath1/scripts.inc"

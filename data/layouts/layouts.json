@@ -4560,6 +4560,36 @@
       "secondary_tileset": "gTileset_Forest",
       "border_filepath": "data/layouts/DeepDarkWoods1/border.bin",
       "blockdata_filepath": "data/layouts/DeepDarkWoods1/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_PATH",
+      "name": "LakePath_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_New_General",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/LakePath/border.bin",
+      "blockdata_filepath": "data/layouts/LakePath/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_PATH2",
+      "name": "LakePath2_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_New_General",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/LakePath2/border.bin",
+      "blockdata_filepath": "data/layouts/LakePath2/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIG_TREE_PATH1",
+      "name": "BigTreePath1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_New_General",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/BigTreePath1/border.bin",
+      "blockdata_filepath": "data/layouts/BigTreePath1/map.bin"
     }
   ]
 }

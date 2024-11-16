@@ -19,11 +19,6 @@
       "direction": "up"
     },
     {
-      "map": "MAP_VILLAGE_NC",
-      "offset": 20,
-      "direction": "up"
-    },
-    {
       "map": "MAP_VILLAGE_BEACH",
       "offset": 0,
       "direction": "down"
