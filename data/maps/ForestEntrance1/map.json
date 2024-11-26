@@ -12,18 +12,7 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [
-    {
-      "map": "MAP_VILLAGE_NW",
-      "offset": -13,
-      "direction": "down"
-    },
-    {
-      "map": "MAP_VILLAGE_NE",
-      "offset": 7,
-      "direction": "down"
-    }
-  ],
+  "connections": 0,
   "object_events": [
 
   ],

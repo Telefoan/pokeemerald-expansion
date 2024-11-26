@@ -7,21 +7,18 @@ BeachVillage_MapScripts::
 	@ 3: 
 	@ 4: 
 
-LittlerootTown_EventScript_Mom::
+BeachVillage_EventScript_Mom::
 	lock
 	faceplayer
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_SetHomeDoorCoordsMale
-	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_EventScript_SetHomeDoorCoordsFemale
-	call LittlerootTown_EventScript_GiveRunningShoes
+	call BeachVillage_EventScript_GiveRunningShoes
 	hideobjectat LOCALID_MOM, MAP_BEACH_VILLAGE
-	goto LittlerootTown_EventScript_SetReceivedRunningShoes
+	goto BeachVillage_EventScript_SetReceivedRunningShoes
 	end
 
-LittlerootTown_EventScript_SetReceivedRunningShoes::
+BeachVillage_EventScript_SetReceivedRunningShoes::
 	removeobject LOCALID_MOM
 	setflag FLAG_SYS_B_DASH
-	setvar VAR_BEACH_VILLAGE_STATE, 4
+	setvar VAR_BEACH_VILLAGE_STATE, 1
 	release
 	end
 
