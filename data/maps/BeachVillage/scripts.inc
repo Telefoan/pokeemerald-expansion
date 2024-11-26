@@ -1,3 +1,5 @@
+.set LOCALID_MOM, 1
+
 BeachVillage_MapScripts::
 	.byte 0
 
