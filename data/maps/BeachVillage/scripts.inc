@@ -3,7 +3,7 @@
 BeachVillage_MapScripts::
 	.byte 0
 
-	@ State descriptions for VAR_VILLAGE_S_STATE
+	@ State descriptions for VAR_BEACH_VILLAGE_STATE
 	@ 1: Received Running Shoes
 	@ 2: 
 	@ 3: 

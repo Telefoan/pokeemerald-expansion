@@ -264,7 +264,7 @@
 #define VAR_ROXANNE_CALL_STEP_COUNTER                    0x40F4
 #define VAR_SCOTT_BF_CALL_STEP_COUNTER                   0x40F5
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER             0x40F6
-#define VAR_VILLAGE_S_STATE                              0x40F7 // NEW TO ISLAND PROJECT
+#define VAR_BEACH_VILLAGE_STATE                          0x40F7 // NEW TO ISLAND PROJECT
 #define VAR_LEVEL_CAP_INCRESES                           0x40F8 // NEW TO ISLAND PROJECT, USED TO TRACK HOW MUCH CAP HAS BEEN INCREASED
 #define VAR_UNUSED_0x40F9                                0x40F9 // Unused Var
 #define VAR_UNUSED_0x40FA                                0x40FA // Unused Var
