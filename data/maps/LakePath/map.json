@@ -19,8 +19,8 @@
       "direction": "left"
     },
     {
-      "map": "MAP_LAKE_PATH2",
-      "offset": 9,
+      "map": "MAP_FOREST_LAKE1",
+      "offset": -20,
       "direction": "right"
     }
   ],

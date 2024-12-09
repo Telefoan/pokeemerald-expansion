@@ -19,14 +19,14 @@
       "direction": "down"
     },
     {
-      "map": "MAP_LAKE_PATH",
-      "offset": 3,
-      "direction": "right"
-    },
-    {
       "map": "MAP_BIG_TREE_PATH1",
       "offset": 0,
       "direction": "up"
+    },
+    {
+      "map": "MAP_LAKE_PATH",
+      "offset": 3,
+      "direction": "right"
     }
   ],
   "object_events": [

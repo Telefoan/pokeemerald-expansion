@@ -1,7 +1,7 @@
 {
-  "id": "MAP_LAKE_PATH2",
-  "name": "LakePath2",
-  "layout": "LAYOUT_LAKE_PATH2",
+  "id": "MAP_FOREST_LAKE1",
+  "name": "ForestLake1",
+  "layout": "LAYOUT_FOREST_LAKE1",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_FOREST_DUNGEON",
   "requires_flash": false,
@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_LAKE_PATH",
-      "offset": -9,
+      "offset": 20,
       "direction": "left"
     }
   ],

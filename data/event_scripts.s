@@ -1098,6 +1098,6 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/LakePath/scripts.inc"
 
-	.include "data/maps/LakePath2/scripts.inc"
-
 	.include "data/maps/BigTreePath1/scripts.inc"
+
+	.include "data/maps/ForestLake1/scripts.inc"
